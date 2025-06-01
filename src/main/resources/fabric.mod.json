@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "unsafe-loots",
+	"version": "${version}",
+	"name": "Unsafe loots",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Uattbin"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/unsafe-loots/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"unsafeloots.UnsafeLoots"
+		],
+		"clinet": [
+			"unsafeloots.UnsafeLootsClinet"
+		],
+		"fabric-datagen": [
+			"unsafeloots.UnsafeLootsDataGenerator"
+		]
+	},
+	"mixins": [
+		"unsafe-loots.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
