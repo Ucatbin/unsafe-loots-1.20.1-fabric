@@ -5,14 +5,14 @@
 	"name": "Unsafe loots",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Uattbin"
+		"Ucatbin"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "icon.png",
+	"icon": "unsafe-loots/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
