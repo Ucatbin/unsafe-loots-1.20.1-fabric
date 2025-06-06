@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import unsafeloots.UnsafeLoots;
+import unsafeloots.block.ModBlocks;
 
 public class ModItemGroups {
 
@@ -17,8 +18,12 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.ruby"))
                     .icon(() -> new ItemStack(ModItems.RUBY))
                     .entries((displayContext, entries) -> {
+                        //物品加入分组
                         entries.add(ModItems.RAW_RUBY);
                         entries.add(ModItems.RUBY);
+                        //块加入分组
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
                     })
                     .build());
 

@@ -2,5 +2,8 @@
   "item.unsafe-loots.ruby": "红宝石",
   "item.unsafe-loots.raw_ruby": "红宝石原石",
 
+  "block.unsafe-loots.ruby_block": "红宝石块",
+  "block.unsafe-loots.raw_ruby_block": "粗红宝石块",
+
   "itemgroup.ruby": "红宝石组"
 }
