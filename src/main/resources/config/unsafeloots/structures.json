@@ -1,0 +1,9 @@
+{
+  "whitelist": [
+    "minecraft:village_plains",
+    "minecraft:pillager_outpost"
+  ],
+  "blacklist": [
+    "minecraft:stronghold"
+  ]
+}
